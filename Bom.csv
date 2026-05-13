@@ -1,0 +1,21 @@
+Reference,Value,Datasheet,Footprint,Qty,Mouser Part Number, Price INR,Datasheet links
+BT1,3.3,~,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal",1,,,
+C9,0.1uF,,,,603-CC805KPX7R9BB104,1.12,https://www.mouser.in/datasheet/3/508/1/UPY_GPHC_X7R_6_3V_TO_250V.pdf
+C2,0.1uF,~,Capacitor_SMD:C_0805_2012Metric,2,603-CC805KPX7R9BB104,1.12,https://www.mouser.in/datasheet/3/508/1/UPY_GPHC_X7R_6_3V_TO_250V.pdf
+C3,6.8nF,~,Capacitor_SMD:C_0805_2012Metric,1,80-C0805C682F5GECLR,137.91,https://www.mouser.in/datasheet/3/508/1/KEM_C1091_C0G_ESD.pdf
+C4,4.7uF,~,Capacitor_SMD:C_0805_2012Metric,1,80-C0805X475K3RAUTO,61.5,https://www.mouser.in/datasheet/3/72/1/C0805X475K3RACAUTO.pdf
+C5 ,22uF,,,,581-12063D226KAT2A,106.23,https://www.mouser.in/datasheet/3/5926/1/cx5r_KGM.pdf
+C6,22uF,~,Capacitor_SMD:C_1206_3216Metric,6,581-12063D226KAT2A,106.23,https://www.mouser.in/datasheet/3/5926/1/cx5r_KGM.pdf
+C7,22uF,,,,581-12063D226KAT2A,106.23,https://www.mouser.in/datasheet/3/5926/1/cx5r_KGM.pdf
+C8,22uF,,,,581-12063D226KAT2A,106.23,https://www.mouser.in/datasheet/3/5926/1/cx5r_KGM.pdf
+C11,22uF,,,,581-12063D226KAT2A,106.23,https://www.mouser.in/datasheet/3/5926/1/cx5r_KGM.pdf
+C12,22uF,,,,581-12063D226KAT2A,106.23,https://www.mouser.in/datasheet/3/5926/1/cx5r_KGM.pdf
+C10,22nF,~,Capacitor_SMD:C_0805_2012Metric,1,80-C0805C223M1RAUTO,30.75,https://www.mouser.in/datasheet/3/508/1/KEM_C1023_X7R_AUTO_SMD.pdf
+IC1,MP3429GL-P,https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP3429GL-Z/document_id/1189/,MP3429_Custom:MP3429GLP,1,946-MP3429GL-P,267.43,https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP3429GL-Z
+L1,3.3uH,,Inductor_SMD:L_7.3x7.3_H4.5,1,704-EXLA1V0605-3R3-R,86.66,https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-exla1v06-automotive-high-current-molded-inductor-data-sheet-elx1221-en.pdf
+R1,130k,~,Resistor_SMD:R_0805_2012Metric,1,71-CRCW0805130KFKEAC,9.32,https://www.vishay.com/docs/20035/dcrcwe3.pdf
+R2,20k,~,Resistor_SMD:R_0805_2012Metric,1,71-CRCW080520K0FKEBC,35.41,https://www.vishay.com/docs/20035/dcrcwe3.pdf
+R3,6.8k,~,Resistor_SMD:R_0805_2012Metric,1,71-CRCW08056K80FKEAC,9.32,https://www.vishay.com/docs/20035/dcrcwe3.pdf
+R4,30k,~,Resistor_SMD:R_0805_2012Metric,1,71-CRCW080530K0FKEAC,9.32,https://www.vishay.com/docs/20035/dcrcwe3.pdf
+R5,750k,~,Resistor_SMD:R_0805_2012Metric,1,71-CRCW0805750KFKEAC,35.41,https://www.vishay.com/docs/20035/dcrcwe3.pdf
+R6,53.6k,~,Resistor_SMD:R_0805_2012Metric,1,71-CRCW080553K6FKEAC,9.32,https://www.vishay.com/docs/20035/dcrcwe3.pdf

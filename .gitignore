@@ -1,0 +1,8 @@
+# KiCad ignores
+*-backups/
+*.lck
+fp-info-cache
+# KiCad ignores
+*-backups/
+*.lck
+fp-info-cache

@@ -1,0 +1,37 @@
+.title KiCad schematic
+.control
+* Run a transient analysis (Time Step = 10ns, Total Time = 5ms)
+tran 10n 5m
+
+* Make the plot window look clean (White background, Black grid/text)
+set color0=white
+set color1=black
+
+* Plot the Input vs Output Voltage
+plot v(Vin) v(Vout)
+
+* Plot the Switching Node (to see the 600kHz PWM action)
+plot v(SW)
+
+.endc
+C7 Vout 0 22u
+C2 Vout 0 0.1u
+R5 Vout Vfb 750k
+R6 Vfb 0 53.6k
+C6 Vout 0 22u
+C10 0 Net-_IC1-SS_ 22n
+V1 Vin 0 DC 3.3 
+C4 Net-_IC1-VDD_ 0 4.7u
+R1 V_Mode Net-_IC1-VDD_ 130k
+R2 V_Mode 0 20k
+IC1 __IC1
+C3 Net-_IC1-COMP_ Net-_C3-Pad2_ 6.8n
+R3 Net-_C3-Pad2_ 0 6.8k
+C12 0 Vin 22u
+C11 0 Vin 22u
+L1 Net-_IC1-SW_ Vin 3.3u
+C9 Net-_IC1-SW_ Net-_IC1-BST_ 0.1u
+R4 Net-_IC1-EN_ Vin 30k
+C8 Vout 0 22u
+C5 0 Vin 22u
+.end

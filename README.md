@@ -1,7 +1,7 @@
 # Epd_Project: 3.3V to 15V Boost Converter
 
 ## Overview
-This repository contains the KiCad design files for a custom DC-to-DC power converter. The circuit is designed to take a 3.3V input and provide a highly regulated 15V output at 1A, utilizing the MP3429 IC.
+This repository contains the KiCad design files for a custom DC-to-DC power converter. The circuit is designed to take a 3.3V input and provide a regulated 15V output at 1A, using the MP3429 IC.
 
 ## Key Specifications
 * **Input Voltage:** 3.3V
@@ -11,7 +11,6 @@ This repository contains the KiCad design files for a custom DC-to-DC power conv
 
 ## Tools Used
 * **EDA Software:** KiCad
-* **Routing:** Freerouting plugin
 * **Custom Footprints/Symbols:** Designed specifically for the MP3429 and associated components.
 
 ## Repository Structure
